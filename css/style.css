@@ -1,12 +1,16 @@
 .container {
-  width: 100%;
-  float: left; }
+  display: inline-block;
+  border: 1px solid #49872d;
+  width: 100%; }
 
 .main-section {
-  width: 50%; }
+  float: left;
+  width: 40%;
+  padding: 10px; }
 
-.img-section {
-  width: 50%; }
+.exam-section {
+  float: left;
+  margin-left: 35px; }
 
 h1 {
   color: #d145d6;
@@ -16,11 +20,16 @@ h1 {
   box-sizing: border-box;
   border-radius: 5px; }
 
-h2 {
-  color: #49872d; }
-
 p {
-  color: #fafcfa; }
+  color: #fafcfa;
+ }
+
+h2 {
+  color: #d145d6; }
+
+code {
+  color: #f5ef82;
+  font-size: 18px; }
 
 body {
   background-color: #080708; }
