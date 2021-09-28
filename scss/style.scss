@@ -1,5 +1,17 @@
 $txt1 : #d145d6;
 $bg-c : #080708;
+$txt : #fafcfa;
+$txt2 :#49872d;
+.container{
+  width:100%;
+  float:left;
+}
+.main-section{
+  width:50%;
+}
+.img-section{
+  width:50%;
+}
 h1{
   color:$txt1;
   text-align: center;
@@ -7,6 +19,12 @@ h1{
   padding:40px;
   box-sizing:border-box;
   border-radius:5px;
+}
+h2{
+  color:$txt2;
+}
+p{
+  color:$txt;
 }
 body{
   background-color:$bg-c;
