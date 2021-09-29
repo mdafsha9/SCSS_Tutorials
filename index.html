@@ -19,13 +19,10 @@
     <h3>How does Sass works></h3>
     <p>Sass code does not understand the browsers. Therefore we will need Sass-preprocessor to convert Sass code into CSS code.<br>
     This process is called transpiling. So we need to give a transpiller some Sass code and then get some CSS code back.</p>
-    <div class="container">
-      <div class="main-section">
         <h2>Variables</h2>
         <p>Variables as a way to store information that we want to reuse through out  stylesheet.<br>
           We can store things like color, background-color, font-stacks and  any CSS value that we want to reuse.<br>
           Sass use $ symbol to make something a variable.</p>
-      </div>
       <div class="exam-section">
         <h2>Variables example</h2>
         <code>
@@ -37,6 +34,37 @@
           }
         </code>
       </div>
-    </div>
+
+        <h2>Nesting</h2>
+        <p>When writing HTML you have noticed that it has a clear nested and visual herarchy, css on the otherhand does not.<br>
+        Sass let we nest our css selectors in the same way as HTML</p>
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="exam-section">
+        <h2>Nesting example</h2>
+        <code>
+          nav{<br>
+            ul{<br>
+              margin:0px;<br>
+              padding:0px;<br>
+            }<br>
+            li{<br>
+              display:inline-block;<br>
+              padding-left:20px;<br>
+              font-weight:$weight;<br>
+            }<br>
+            a{<br>
+              text-decoration:none;<br>
+              color: $txt1;<br>
+            }<br>
+          }
+        </code>
+      </div>
   </body>
 </html>

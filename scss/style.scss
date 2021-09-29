@@ -4,19 +4,9 @@ $txt : #fafcfa;
 $txt2 :#49872d;
 $font-stack :18px;
 $code-color:#f5ef82;
-.container{
-  display:inline-block;
-  border:1px solid #49872d;
-  width:100%;
-}
-.main-section{
-  float:left;
-  width:40%;
-  padding:10px;
-}
+$weight:bold;
 .exam-section{
-  float:left;
-  margin-left:35px;
+  border:1px solid green;
 }
 h1{
   color:$txt1;
@@ -38,4 +28,21 @@ code{
 }
 body{
   background-color:$bg-c;
+}
+nav{
+  ul{
+    margin:0px;
+    padding:0px;
+  }
+  li{
+    display:inline-block;
+    padding-left:20px;
+    font-weight:$weight;
+  }
+  a{
+    text-decoration:none;
+    color: $txt1;
+
+
+  }
 }
