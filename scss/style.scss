@@ -7,6 +7,7 @@ $code-color:#f5ef82;
 $weight:bold;
 .exam-section{
   border:1px solid green;
+  padding-left:20px;
 }
 h1{
   color:$txt1;
@@ -32,11 +33,11 @@ body{
 nav{
   ul{
     margin:0px;
-    padding:0px;
+    padding-bottom:15px;
   }
   li{
     display:inline-block;
-    padding-left:20px;
+    padding-left:40px;
     font-weight:$weight;
   }
   a{
