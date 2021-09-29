@@ -6,6 +6,7 @@ $font-stack :18px;
 $code-color:#f5ef82;
 $weight:bold;
 $radius:15px;
+$p-fonts:Arial, Helvetica, sans-serif;
 .exam-section{
   border:1px solid green;
   padding-left:20px;
@@ -22,6 +23,7 @@ h1{
 }
 p{
   color:$txt;
+  font-family:$p-fonts;
 }
 h2{
   color:$txt1;
