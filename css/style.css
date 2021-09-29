@@ -1,6 +1,8 @@
 .exam-section {
   border: 1px solid green;
-  padding-left: 20px; }
+  padding-left: 20px;
+  border-radius: 5px;
+  width: 300px; }
 
 h1 {
   color: #d145d6;
@@ -8,7 +10,7 @@ h1 {
   border: 4px solid #d145d6;
   padding: 40px;
   box-sizing: border-box;
-  border-radius: 5px; }
+  border-radius: 15px; }
 
 p {
   color: #fafcfa; }

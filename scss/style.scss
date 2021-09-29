@@ -5,9 +5,12 @@ $txt2 :#49872d;
 $font-stack :18px;
 $code-color:#f5ef82;
 $weight:bold;
+$radius:15px;
 .exam-section{
   border:1px solid green;
   padding-left:20px;
+  border-radius:5px;
+  width:300px;
 }
 h1{
   color:$txt1;
@@ -15,7 +18,7 @@ h1{
   border:4px solid $txt1;
   padding:40px;
   box-sizing:border-box;
-  border-radius:5px;
+  border-radius:$radius;
 }
 p{
   color:$txt;
