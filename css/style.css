@@ -2,7 +2,8 @@
   border: 1px solid green;
   padding-left: 20px;
   border-radius: 5px;
-  width: 300px; }
+  width: 300px;
+  background-color: #403f40; }
 
 h1 {
   color: #d145d6;

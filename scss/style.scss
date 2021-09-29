@@ -7,11 +7,13 @@ $code-color:#f5ef82;
 $weight:bold;
 $radius:15px;
 $p-fonts:Arial, Helvetica, sans-serif;
+$exambg:#403f40;
 .exam-section{
   border:1px solid green;
   padding-left:20px;
   border-radius:5px;
   width:300px;
+  background-color:$exambg;
 }
 h1{
   color:$txt1;
