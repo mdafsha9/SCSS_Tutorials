@@ -66,7 +66,27 @@
           }
         </code>
       </div>
+
       <h2>Modules</h2>
       <p>You don't need to write all sass code in a single file. You can split it up however you want @use rule. This rule loads another sass file as a module, which means you can refers to its variables, mixins and functions in a sass file namespace based on the filename.   </p>
+      <div class="exam-section">
+        <h2>Modules example</h2>
+        <code>
+          _base.scss<br>
+          $font-stack:Helvetica, Sans-serif;<br>
+          color:$primary-color;<br>
+          body{<br>
+            font: 100% $font-stack;<br>
+            color: $primary-color;<br>
+          }<br><br>
+          style.scss<br>
+          @use 'base';<br>
+
+          .inverse {<br>
+            background-color: base.$primary-color;<br>
+            color: white;<br>
+          }<br>
+        </code>
+    </div>
   </body>
 </html>
