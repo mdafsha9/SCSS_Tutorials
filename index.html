@@ -69,6 +69,12 @@
 
       <h2>Modules</h2>
       <p>You don't need to write all sass code in a single file. You can split it up however you want @use rule.<br>This rule loads another sass file as a module, which means you can refers to its variables,<br>mixins and functions in a sass file namespace based on the filename.   </p>
+      <h2>Sass @import and partials</h2>
+      <p>One way to write Dry code and is to keep related in seperate files.We can create a small files<br>
+      with CSS snippet to include in other sass files. Examples of such files can be reset.scss, variable, fonts, font-size etc.,</p>
+      <h3>Sass @import</h3>
+      <p>Like CSS, sass also supports @import directive.<br>
+      Sass @import directive allows you to include the content of one file into another.</p>
       <div class="exam-section">
         <h2>Modules example</h2>
         <code>
@@ -87,6 +93,9 @@
             color: white;<br>
           }<br>
         </code>
+    </div>
+    <div class="exam-section">
+
     </div>
   </body>
 </html>
