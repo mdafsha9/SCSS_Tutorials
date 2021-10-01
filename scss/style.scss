@@ -1,7 +1,7 @@
 @import 'variables';
 .exam-section{
   border:1px solid green;
-  padding-left:50px;
+  padding-left:40px;
   margin-left:80px;
   border-radius:5px;
   width:400px;
@@ -11,7 +11,7 @@ h1{
   color:$txt1;
   text-align: center;
   border:4px solid $txt1;
-  padding:40px;
+  padding:$paddingLeft;
   box-sizing:border-box;
   border-radius:$radius;
 }
@@ -36,7 +36,7 @@ nav{
   }
   li{
     display:inline-block;
-    padding-left:40px;
+    padding-left:$paddingLeft;
     font-weight:$weight;
   }
   a{
