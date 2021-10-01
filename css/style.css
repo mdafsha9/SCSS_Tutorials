@@ -1,3 +1,16 @@
+body {
+  padding: 0px;
+  margin: 0px 25px;
+}
+
+h2, p {
+  margin: 10px 25px;
+}
+
+h3 {
+  margin: 10px 30px;
+}
+
 .exam-section {
   border: 1px solid green;
   padding-left: 40px;
@@ -23,6 +36,14 @@ p {
 
 h2, h3 {
   color: #d145d6;
+}
+
+h3 {
+  font-family: Papyrus;
+}
+
+h2 {
+  font-family: sans-serif;
 }
 
 code {
