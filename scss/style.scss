@@ -52,3 +52,18 @@ nav{
     color: $txt1;
   }
 }
+@mixin important-text{
+  color:red;
+  font-size:20px;
+  font-weight:bold;
+  border:1px solid red;
+  @include text;
+}
+@mixin text{
+  text-align:center;
+  border-radius:5px;
+}
+.mix{
+  @include important-text;
+  background-color:yellow;
+}

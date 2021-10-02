@@ -16,15 +16,15 @@
     <p>Sass is a CSS-preprocessor. Sass reduces repetition of CSS and therefore saves time.<br>
     Stylesheets are getting larger, more complex and harder to maintain. This is where a CSS-preprocessor can help.<br>
     Sass lets we use features that does not exists in CSS like variables, nested rules, mixins, imports, inheritance, built-in-functions and other stuff.</p>
-    <h3>How does Sass works</h3>
+    <h2>How does Sass works</h2>
     <p>Sass code does not understand the browsers. Therefore we will need Sass-preprocessor to convert Sass code into CSS code.<br>
     This process is called transpiling. So we need to give a transpiller some Sass code and then get some CSS code back.</p>
-        <h2>Variables</h2>
-        <p>Variables as a way to store information that we want to reuse through out  stylesheet.<br>
-          We can store things like color, background-color, font-stacks and  any CSS value that we want to reuse.<br>
-          Sass use $ symbol to make something a variable.</p>
-      <div class="exam-section">
-        <h2>Variables example</h2>
+    <h2>Variables</h2>
+    <p>Variables as a way to store information that we want to reuse through out  stylesheet.<br>
+      We can store things like color, background-color, font-stacks and  any CSS value that we want to reuse.<br>
+      Sass use $ symbol to make something a variable.</p>
+    <div class="exam-section">
+        <h3>Variables example</h3>
         <code>
           $font-stack: Helvetica, sans-serif;<br>
           $primary-color: #333;<br>
@@ -47,7 +47,7 @@
         </nav>
       </div>
       <div class="exam-section">
-        <h2>Nesting example</h2>
+        <h3>Nesting example</h3>
         <code>
           nav{<br>
             ul{<br>
@@ -76,7 +76,7 @@
       <p>Like CSS, sass also supports @import directive.<br>
       Sass @import directive allows you to include the content of one file into another.</p>
       <div class="exam-section">
-        <h2>Modules example</h2>
+        <h3>Modules example</h3>
         <code>
           _base.scss<br>
           $font-stack:Helvetica, Sans-serif;<br>
@@ -93,8 +93,22 @@
           }<br>
         </code>
     </div>
+    <h2>@mixin directive</h2>
+    <p>The @mixin directive lets we create CSS code that has to be reused through out website.<br>
+    The @include directive is created, let we use (include) the mixin.</p>
     <div class="exam-section">
-
+      <code>
+        @mixin important-text{<br>
+          color:red;<br>
+          font-size:20px;<br>
+          font-weight:bold;<br>
+          border:1px solid red;<br>
+        }<br>
+        selector{<br>
+          @include important-text;<br>
+        }
+    </code>
+    <p class="mix" >Mixin example</p>
     </div>
   </body>
 </html>
