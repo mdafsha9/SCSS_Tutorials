@@ -80,3 +80,8 @@ nav{
   @extend .button-basic;
   background-color:red;
 }
+.button-submit{
+  @extend .button-basic;
+  background-color:green;
+  color:white;
+}

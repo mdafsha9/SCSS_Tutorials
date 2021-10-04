@@ -79,7 +79,7 @@ nav a {
   background-color: yellow;
 }
 
-.button-basic, .button-report {
+.button-basic, .button-report, .button-submit {
   border: none;
   font-size: 16px;
   padding: 15px 30px;
@@ -91,6 +91,11 @@ nav a {
 
 .button-report {
   background-color: red;
+}
+
+.button-submit {
+  background-color: green;
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */
