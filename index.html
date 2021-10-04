@@ -110,5 +110,30 @@
     </code>
     <p class="mix" >Mixin example</p>
     </div>
+    <h2>@extend directive</h2>
+    <p>The @extend directive lets we share a set of CSS properties from one selector to another.<br>
+    It is useful if you have almost identically styled elements.</p>
+    <div class="exam-section">
+        <code>
+          .button-basic{<br>
+            border:none;<br>
+            padding:15px 10px;<br>
+            text-align:center;<br>
+            font-size:16px;<br>
+            cursor:pointer<br>
+          }<br>
+          @extend .button-report{<br>
+            @extend .button-basic;<br>
+            background-color:red;<br>
+          }<br>
+          @extend .button-submit{<br>
+            @extend .button-basic;<br>
+            background-color:green;<br>
+            color:white;<br>
+          }
+        </code>
+        <button class="button-report">Basic</button>
+    </div>
+
   </body>
 </html>
